@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP</title>
+    <link rel="stylesheet" href=/bootstrap-5/css/bootstrap.css>
+    <link rel="stylesheet" href="/bootstrap-5/css/customdiv.css">
+    <style>
+        .signup{
+    padding:50px,10px;
+    box-sizing:border-box;
+        }
+        #login{
+            color:black;
+        }
+        .container{
+            background-color: aliceblue;
+            position:fixed;
+            margin: auto;
+            float:center;
+        
+        }
+        #res{
+            background-origin: padding-box;
+        }
+    </style>
+</head>
+<body>
+      <div>
+        <br> 
+      </div>  
+    <center>
+<form action="refer.php" method="POST" border="1"  width="100px", height="100px" >
+    <div class="container">
+    <div class="signup">
+        <img src="photo.jpg" width="200px",height="100px">
+        <h1>SIGN UP</h1>
+        <p>
+        <label>ENTER USER NAME</label>
+     <input type="text " name="first_name"  placeholder="fisrtname" required>
+     </p>
+    <br>
+    <p>
+    <label>ENTER LASTNAME</label>   
+     <input type="text " name="last_name"  placeholder="Lastname" required></div>
+    </p>
+    <br>
+    <p>
+    <label>ENTER USER ID</label>    
+     <input type="text " name="email"  placeholder="Userid"     required></p>
+    <br>
+    <p>
+    <label>ENTER PASSWORD</label> <input type="text" placeholder="Password" name="passwd" required></p>
+    <br>
+    <div><input type="submit" onclick="submit" name="submit">
+    <a href="login.html" id ="login">ALREDY REGISTER</a>
+    </div>
+    </div>
+</form>
+</center>
+</table>
+</body>
+</html>
