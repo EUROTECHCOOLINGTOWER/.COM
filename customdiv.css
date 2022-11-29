@@ -32,7 +32,7 @@ hr{
 .container{
    box-sizing: border-box;
     border:1px solid yellowgreen;
-    background-color:black;
+    background-color:yellowgreen;
 }
 #xyz{
     background-color: yellowgreen;
@@ -44,7 +44,6 @@ p1{
     padding:10px
 }
 .product{
-    background-color:white ;
     color:black;
     font-size: 40px;
     padding :10px,20px;
